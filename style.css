@@ -1,0 +1,88 @@
+/*------------Normalize--------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /text-decoration: none;
+    font-weight: 400;
+    line-height: 150%;
+}
+ul,ol,li {
+    list-style-type: none; 
+}
+
+/*------------Variables--------------*/
+:root {
+    --color-gray: #353A40;
+    --color-background: #FFFFFF;
+    --color-dark-blue: #1D3744;
+    --color-light-blue: #1E5371;
+}
+ /*-----------------Body-------------*/
+body{
+background-color: var(--color-purple);
+font-size: 16px;
+color: var(--color-font);
+}
+
+/*--------------General--------------*/
+a{
+text-decoration: none;
+/*color: var(--color-font);*/
+color: white;
+
+
+/*-----------Header-----------*/
+}
+header{
+    /*background-color: var(--color-gray);*/
+    color: white;
+}
+
+/*-----------main-----------*/
+.intro-cover {
+    height: 100vh;
+    background-image: url("./imagens_integrador_front/ba1.jpg");
+    background-size: cover;
+    color: white;  
+}
+
+ /*
+.transbox{
+    background-color: black;
+    opacity: 0.7;
+}*/
+
+
+.content-image{
+   /*  width: 100vw;*/
+    height: 70vh;
+    background-image: url("./imagens_integrador_front/honolulu.jpg");
+    background-size: cover;
+}
+.content-description{
+    /* width: 100vw;*/
+}
+.oradores {
+   margin: 0 10vw;
+}
+
+section .content{
+    border-top: 1px solid black;
+}
+.form-text{
+    margin-left: -23vw;
+}
+.enviar {
+    background-color: greenyellow;
+
+  /*  width: 30vw;*/
+}
+.enviar:hoover{
+   background-color: greenyellow !important;
+   border: 1px solid green !important;
+}
+footer{
+    background-image: linear-gradient(to right, var(--color-dark-blue), var(--color-light-blue));
+}
